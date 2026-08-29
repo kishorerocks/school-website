@@ -1,0 +1,6 @@
+{
+  "name": "St. Andrews International Academy",
+  "description": "A premium, modern school website frontend for St. Andrews Academy built with HTML5, CSS3, Bootstrap 5, JavaScript, and jQuery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

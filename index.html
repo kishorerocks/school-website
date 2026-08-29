@@ -1,0 +1,1992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>St. Andrews International Academy | Excellence in Education</title>
+  <meta name="description" content="St. Andrews International Academy - A premier CBSE & Cambridge affiliated school nurturing global thinkers and future leaders." />
+  <meta property="og:title" content="St. Andrews International Academy | Excellence in Education" />
+  <meta property="og:description" content="Experience world-class education rooted in tradition and driven by innovation at St. Andrews Academy." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5.3.3 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Font Awesome 6 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="pageTop">
+
+  <!-- ========================================================================
+       5. TOP UTILITY BAR
+       ======================================================================== -->
+  <div class="top-utility-bar" id="topUtilityBar">
+    <div class="container-xl d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center gap-3">
+        <span class="admissions-pulse-badge">
+          <span class="pulse-dot"></span> Admissions Open 2026–27
+        </span>
+        <span class="contact-items text-light small d-none d-md-inline-flex align-items-center gap-3">
+          <a href="tel:+919876543210"><i class="bi bi-telephone-fill text-warning"></i> +91 98765 43210</a>
+          <span class="text-white-50">|</span>
+          <a href="mailto:admissions@standrewsacademy.edu.in"><i class="bi bi-envelope-fill text-warning"></i> admissions@standrewsacademy.edu.in</a>
+        </span>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <a href="#contact" class="small"><i class="bi bi-geo-alt-fill text-warning"></i> Campus Tour</a>
+        <span class="text-white-50 d-none d-sm-inline">|</span>
+        <a href="#parentLoginModal" data-bs-toggle="modal" class="small"><i class="bi bi-person-circle text-warning"></i> Parent Login</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       6. MAIN NAVBAR & STICKY HEADER
+       ======================================================================== -->
+  <nav class="navbar navbar-expand-lg main-navbar" id="mainNavbar">
+    <div class="container-xl">
+      <!-- School Logo & Name -->
+      <a class="navbar-brand navbar-brand-custom" href="#pageTop" id="brandLogo">
+        <div class="school-crest-wrap">
+          <i class="fa-solid fa-graduation-cap fa-lg"></i>
+        </div>
+        <div class="school-brand-text">
+          <span class="school-brand-title">St. Andrews</span>
+          <span class="school-brand-motto">International Academy</span>
+        </div>
+      </a>
+
+      <!-- Right Action Items for Mobile (Search + Toggler) -->
+      <div class="d-flex align-items-center gap-2 d-lg-none">
+        <button type="button" class="btn-search-trigger" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Open Search">
+          <i class="bi bi-search"></i>
+        </button>
+        <button class="navbar-toggler border-0 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNavOffcanvas" aria-controls="mobileNavOffcanvas" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-2 text-primary"></i>
+        </button>
+      </div>
+
+      <!-- Desktop Navigation Menu -->
+      <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex" id="desktopNavbarNav">
+        <ul class="navbar-nav align-items-center gap-1">
+          <li class="nav-item">
+            <a class="nav-link active" href="#pageTop">HOME</a>
+          </li>
+
+          <!-- ABOUT US DROPDOWN -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#about" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ABOUT US
+            </a>
+            <ul class="dropdown-menu shadow-lg" aria-labelledby="aboutDropdown">
+              <li><a class="dropdown-item" href="#about">Our School <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#about">Vision & Mission <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#principal">Principal's Message <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#whyUs">Management & Leadership <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#whyUs">Faculty & Mentors <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#achievementsSection">School Achievements <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+            </ul>
+          </li>
+
+          <!-- ACADEMICS DROPDOWN -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#academics" id="academicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ACADEMICS
+            </a>
+            <ul class="dropdown-menu shadow-lg" aria-labelledby="academicsDropdown">
+              <li><a class="dropdown-item" href="#academics">Pre-Primary (Early Years) <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#academics">Primary School (Grades 1-5) <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#academics">Middle School (Grades 6-8) <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#academics">High School & Senior Sec <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#academics">Curriculum & Pedagogy <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#academics">Learning Methodology <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+            </ul>
+          </li>
+
+          <!-- ADMISSIONS DROPDOWN -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#admissions" id="admissionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ADMISSIONS
+            </a>
+            <ul class="dropdown-menu shadow-lg" aria-labelledby="admissionsDropdown">
+              <li><a class="dropdown-item" href="#admissions">Admission Process <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#admissions">Eligibility Criteria <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#admissions">Fee Structure & Guidelines <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#timeline">Important Dates <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#contact">Online Enquiry Form <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#downloadProspectusModal" data-bs-toggle="modal">Download Prospectus <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+            </ul>
+          </li>
+
+          <!-- CAMPUS & FACILITIES DROPDOWN -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#facilities" id="facilitiesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CAMPUS & FACILITIES
+            </a>
+            <ul class="dropdown-menu shadow-lg" aria-labelledby="facilitiesDropdown">
+              <li><a class="dropdown-item" href="#facilities">Smart Classrooms <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#facilities">Science & Robotics Labs <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#facilities">Digital Library <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#facilities">Computer & AI Labs <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#facilities">Sports & Athletic Arena <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#facilities">GPS Transport Network <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#facilities">Safety & 24/7 CCTV <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+            </ul>
+          </li>
+
+          <!-- STUDENT LIFE DROPDOWN -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#student-life" id="studentLifeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              STUDENT LIFE
+            </a>
+            <ul class="dropdown-menu shadow-lg" aria-labelledby="studentLifeDropdown">
+              <li><a class="dropdown-item" href="#student-life">Clubs & Societies <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#facilities">Sports & Physical Ed <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#events">Cultural Activities & Fest <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#achievementsSection">Student Achievements <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#student-life">House System (4 Houses) <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">GALLERY</a>
+          </li>
+
+          <!-- NEWS & EVENTS DROPDOWN -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#news" id="newsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              NEWS & EVENTS
+            </a>
+            <ul class="dropdown-menu shadow-lg" aria-labelledby="newsDropdown">
+              <li><a class="dropdown-item" href="#events">Upcoming Events <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#news">Latest Circulars & Notices <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+              <li><a class="dropdown-item" href="#timeline">School Calendar 2026–27 <span><i class="bi bi-chevron-right small text-muted"></i></span></a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Desktop Right Controls (Search + Apply Button) -->
+      <div class="d-none d-lg-flex align-items-center gap-3">
+        <button type="button" class="btn-search-trigger" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Open Search Modal">
+          <i class="bi bi-search"></i>
+        </button>
+        <a href="#contact" class="btn btn-accent-gold" id="btnApplyNowNav">
+          Apply Now <i class="bi bi-arrow-right btn-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       9. MOBILE NAVIGATION (Offcanvas Menu)
+       ======================================================================== -->
+  <div class="offcanvas offcanvas-end mobile-offcanvas" tabindex="-1" id="mobileNavOffcanvas" aria-labelledby="mobileNavOffcanvasLabel">
+    <div class="offcanvas-header">
+      <div class="d-flex align-items-center gap-2">
+        <div class="school-crest-wrap" style="width: 38px; height: 38px;">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <h6 class="offcanvas-title fw-bold text-primary mb-0" id="mobileNavOffcanvasLabel">St. Andrews Academy</h6>
+      </div>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column justify-content-between p-3">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link active" href="#pageTop">Home</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" data-bs-toggle="collapse" href="#mobileSubAbout" role="button" aria-expanded="false">
+            About Us <i class="bi bi-chevron-down small"></i>
+          </a>
+          <div class="collapse" id="mobileSubAbout">
+            <ul class="mobile-submenu">
+              <li class="mobile-submenu-item"><a href="#about">Our School</a></li>
+              <li class="mobile-submenu-item"><a href="#about">Vision & Mission</a></li>
+              <li class="mobile-submenu-item"><a href="#principal">Principal's Message</a></li>
+              <li class="mobile-submenu-item"><a href="#whyUs">Management & Faculty</a></li>
+              <li class="mobile-submenu-item"><a href="#achievementsSection">Achievements</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" data-bs-toggle="collapse" href="#mobileSubAcademics" role="button" aria-expanded="false">
+            Academics <i class="bi bi-chevron-down small"></i>
+          </a>
+          <div class="collapse" id="mobileSubAcademics">
+            <ul class="mobile-submenu">
+              <li class="mobile-submenu-item"><a href="#academics">Pre-Primary (Early Years)</a></li>
+              <li class="mobile-submenu-item"><a href="#academics">Primary School (Grades 1-5)</a></li>
+              <li class="mobile-submenu-item"><a href="#academics">Middle School (Grades 6-8)</a></li>
+              <li class="mobile-submenu-item"><a href="#academics">High School (Grades 9-12)</a></li>
+              <li class="mobile-submenu-item"><a href="#academics">Curriculum & Methodology</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" data-bs-toggle="collapse" href="#mobileSubAdmissions" role="button" aria-expanded="false">
+            Admissions <i class="bi bi-chevron-down small"></i>
+          </a>
+          <div class="collapse" id="mobileSubAdmissions">
+            <ul class="mobile-submenu">
+              <li class="mobile-submenu-item"><a href="#admissions">Admission Process</a></li>
+              <li class="mobile-submenu-item"><a href="#admissions">Eligibility Criteria</a></li>
+              <li class="mobile-submenu-item"><a href="#admissions">Fee Structure</a></li>
+              <li class="mobile-submenu-item"><a href="#timeline">Important Dates</a></li>
+              <li class="mobile-submenu-item"><a href="#contact">Online Enquiry</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" data-bs-toggle="collapse" href="#mobileSubFacilities" role="button" aria-expanded="false">
+            Campus & Facilities <i class="bi bi-chevron-down small"></i>
+          </a>
+          <div class="collapse" id="mobileSubFacilities">
+            <ul class="mobile-submenu">
+              <li class="mobile-submenu-item"><a href="#facilities">Smart Classrooms</a></li>
+              <li class="mobile-submenu-item"><a href="#facilities">Science & Robotics Labs</a></li>
+              <li class="mobile-submenu-item"><a href="#facilities">Digital Library</a></li>
+              <li class="mobile-submenu-item"><a href="#facilities">Sports Arena</a></li>
+              <li class="mobile-submenu-item"><a href="#facilities">Transport Network</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#student-life">Student Life</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#events">News & Events</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+
+      <div class="mt-4 pt-3 border-top">
+        <a href="#contact" class="btn btn-accent-gold w-100 mb-2" data-bs-dismiss="offcanvas">
+          Apply Now <i class="bi bi-arrow-right"></i>
+        </a>
+        <a href="tel:+919876543210" class="btn btn-outline-navy w-100">
+          <i class="bi bi-telephone me-2"></i> +91 98765 43210
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       10 & 11. HERO SECTION & 5-SLIDE HERO CAROUSEL
+       ======================================================================== -->
+  <!-- EDIT HERO SLIDES HERE -->
+  <section class="hero-slider-section" id="heroSection">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+      
+      <!-- Slide Indicators -->
+      <div class="carousel-indicators hero-carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <!-- SLIDE 1: Welcome to Our School -->
+        <div class="carousel-item active hero-slider-item" style="background-image: url('https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1920&q=80');">
+          <div class="hero-slider-overlay"></div>
+          <div class="container-xl">
+            <div class="hero-content">
+              <div class="hero-tag"><i class="bi bi-mortarboard-fill text-warning"></i> Welcome to St. Andrews Academy</div>
+              <h1 class="hero-title">Where Learning Inspires <span>Excellence</span></h1>
+              <p class="hero-desc">Empowering young minds with knowledge, character, and global perspectives to lead tomorrow's world.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#about" class="btn btn-primary-custom">Explore Our School <i class="bi bi-arrow-right btn-arrow"></i></a>
+                <a href="#admissions" class="btn btn-outline-white">Admissions Open 2026–27</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 2: Admissions Open 2026-27 -->
+        <div class="carousel-item hero-slider-item" style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80');">
+          <div class="hero-slider-overlay"></div>
+          <div class="container-xl">
+            <div class="hero-content">
+              <div class="hero-tag"><i class="bi bi-star-fill text-warning"></i> Admissions Open 2026–27</div>
+              <h1 class="hero-title">Nurturing Tomorrow's <span>Global Leaders</span></h1>
+              <p class="hero-desc">Offering holistic CBSE & International curriculum with future-ready STEM labs, digital arts, and leadership programs.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#contact" class="btn btn-accent-gold">Apply for Admission <i class="bi bi-arrow-right btn-arrow"></i></a>
+                <a href="#downloadProspectusModal" data-bs-toggle="modal" class="btn btn-outline-white">Download Prospectus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 3: Academic Excellence -->
+        <div class="carousel-item hero-slider-item" style="background-image: url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1920&q=80');">
+          <div class="hero-slider-overlay"></div>
+          <div class="container-xl">
+            <div class="hero-content">
+              <div class="hero-tag"><i class="bi bi-award-fill text-warning"></i> Academic Rigor & Innovation</div>
+              <h1 class="hero-title">Inspiring Curiosity, <span>Igniting Discovery</span></h1>
+              <p class="hero-desc">100% distinction pass rate with students gaining admissions into top universities across India and worldwide.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#academics" class="btn btn-primary-custom">Our Academics <i class="bi bi-arrow-right btn-arrow"></i></a>
+                <a href="#achievementsSection" class="btn btn-outline-white">View Achievements</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 4: Sports & Student Activities -->
+        <div class="carousel-item hero-slider-item" style="background-image: url('https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1920&q=80');">
+          <div class="hero-slider-overlay"></div>
+          <div class="container-xl">
+            <div class="hero-content">
+              <div class="hero-tag"><i class="bi bi-trophy-fill text-warning"></i> Sports & Athletic Excellence</div>
+              <h1 class="hero-title">Champions on the Field, <span>Leaders in Life</span></h1>
+              <p class="hero-desc">Olympic-standard 25-acre sporting complex featuring synthetic athletic tracks, swimming pool, and cricket academy.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#facilities" class="btn btn-primary-custom">Sports Complex <i class="bi bi-arrow-right btn-arrow"></i></a>
+                <a href="#gallery" class="btn btn-outline-white">Explore Campus Gallery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 5: Campus & Student Life -->
+        <div class="carousel-item hero-slider-item" style="background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1920&q=80');">
+          <div class="hero-slider-overlay"></div>
+          <div class="container-xl">
+            <div class="hero-content">
+              <div class="hero-tag"><i class="bi bi-building-check text-warning"></i> 25-Acre Smart Campus</div>
+              <h1 class="hero-title">A Vibrant Community of <span>Curious Learners</span></h1>
+              <p class="hero-desc">Equipped with AI innovation labs, digital amphitheater, organic gardens, and modern performing arts studios.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#facilities" class="btn btn-primary-custom">Discover Campus <i class="bi bi-arrow-right btn-arrow"></i></a>
+                <a href="#contact" class="btn btn-accent-gold">Schedule Campus Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Navigation Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous Slide">
+        <i class="bi bi-chevron-left fs-4"></i>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next Slide">
+        <i class="bi bi-chevron-right fs-4"></i>
+      </button>
+
+      <!-- Floating Hero Information Card (Desktop) -->
+      <div class="hero-floating-card d-none d-lg-block">
+        <div class="d-flex align-items-center gap-3 mb-2">
+          <div class="school-crest-wrap" style="width: 44px; height: 44px; font-size: 1.1rem;">
+            <i class="bi bi-calendar2-check"></i>
+          </div>
+          <div>
+            <span class="badge bg-warning text-dark fw-bold mb-1">Session 2026–27</span>
+            <h6 class="fw-bold mb-0 text-navy">Admissions Open</h6>
+          </div>
+        </div>
+        <p class="small text-muted mb-3">Limited seats available for Pre-Primary to Grade XI. Entrance evaluations scheduled weekly.</p>
+        <a href="#contact" class="btn btn-secondary-custom btn-sm w-100">Book Campus Tour <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       13. QUICK ACTION SECTION (Immediately Below Hero)
+       ======================================================================== -->
+  <section class="quick-actions-wrap container-xl mb-5">
+    <div class="row g-3 g-lg-4">
+      <!-- Card 1: Admissions -->
+      <div class="col-6 col-md-4 col-lg">
+        <a href="#admissions" class="action-card">
+          <div class="action-card-icon">
+            <i class="bi bi-file-earmark-text-fill"></i>
+          </div>
+          <h3 class="action-card-title">Admissions</h3>
+          <p class="action-card-desc">Guidelines, eligibility & simplified 4-step enrolment process.</p>
+          <span class="action-card-link">Learn More <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <!-- Card 2: Academic Calendar -->
+      <div class="col-6 col-md-4 col-lg">
+        <a href="#timeline" class="action-card">
+          <div class="action-card-icon">
+            <i class="bi bi-calendar3"></i>
+          </div>
+          <h3 class="action-card-title">Calendar</h3>
+          <p class="action-card-desc">Term dates, examination timetables, and key holidays.</p>
+          <span class="action-card-link">View Dates <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <!-- Card 3: School Prospectus -->
+      <div class="col-6 col-md-4 col-lg">
+        <a href="#downloadProspectusModal" data-bs-toggle="modal" class="action-card">
+          <div class="action-card-icon">
+            <i class="bi bi-journal-bookmark-fill"></i>
+          </div>
+          <h3 class="action-card-title">Prospectus</h3>
+          <p class="action-card-desc">Download complete school brochure, curriculum & fee booklet.</p>
+          <span class="action-card-link">Download PDF <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <!-- Card 4: Parent Enquiry -->
+      <div class="col-6 col-md-6 col-lg">
+        <a href="#contact" class="action-card">
+          <div class="action-card-icon">
+            <i class="bi bi-chat-dots-fill"></i>
+          </div>
+          <h3 class="action-card-title">Parent Enquiry</h3>
+          <p class="action-card-desc">Direct communication line with our academic counselors.</p>
+          <span class="action-card-link">Enquire Now <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <!-- Card 5: Campus Visit -->
+      <div class="col-12 col-md-6 col-lg">
+        <a href="#contact" class="action-card">
+          <div class="action-card-icon">
+            <i class="bi bi-building"></i>
+          </div>
+          <h3 class="action-card-title">Campus Visit</h3>
+          <p class="action-card-desc">Book an in-person guided walkthrough with our leadership.</p>
+          <span class="action-card-link">Schedule Visit <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       14. ABOUT SCHOOL (Split Section with Floating Badge)
+       ======================================================================== -->
+  <!-- EDIT ABOUT SCHOOL HERE -->
+  <section class="py-5 bg-white" id="about">
+    <div class="container-xl py-lg-4">
+      <div class="row align-items-center g-5">
+        <!-- Left Campus Image with Floating Card -->
+        <div class="col-lg-6 reveal">
+          <div class="about-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80" alt="St. Andrews Modern Campus" class="about-main-img" />
+            <div class="about-floating-badge">
+              <div class="d-flex align-items-center gap-2 mb-1">
+                <i class="bi bi-patch-check-fill text-warning fs-4"></i>
+                <span class="fw-bold fs-5">CBSE & Cambridge</span>
+              </div>
+              <p class="small text-white-50 mb-0">Affiliated to Central Board of Secondary Education & Cambridge Assessment International.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Content & Stats -->
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <span class="section-badge"><i class="bi bi-compass"></i> About Our Institution</span>
+          <h2 class="font-heading mb-3">Building Knowledge. Shaping Character. Inspiring Futures.</h2>
+          <p class="lead text-primary fw-medium mb-3">Founded on the bedrock of holistic education, St. Andrews International Academy blends academic brilliance with ethical leadership.</p>
+          <p class="text-muted mb-4">
+            Spread across a serene 25-acre lush green campus, our institution fosters an intellectually stimulating environment. We cultivate critical thinking, creative expression, scientific inquiry, and global citizenship, preparing our students to thrive in an ever-evolving world.
+          </p>
+
+          <!-- 4 Grid Statistics -->
+          <div class="row g-3 mb-4">
+            <div class="col-6">
+              <div class="about-stat-item">
+                <div class="about-stat-number">25+</div>
+                <div class="about-stat-label">Years of Excellence</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="about-stat-item">
+                <div class="about-stat-number">2,500+</div>
+                <div class="about-stat-label">Active Scholars</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="about-stat-item">
+                <div class="about-stat-number">160+</div>
+                <div class="about-stat-label">Expert Faculty</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="about-stat-item">
+                <div class="about-stat-number">50+</div>
+                <div class="about-stat-label">National Awards</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3">
+            <a href="#whyUs" class="btn btn-primary-custom">Discover Our Story <i class="bi bi-arrow-right btn-arrow"></i></a>
+            <a href="#downloadProspectusModal" data-bs-toggle="modal" class="btn btn-outline-navy">View Philosophy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       15. PRINCIPAL'S MESSAGE
+       ======================================================================== -->
+  <!-- EDIT PRINCIPAL MESSAGE HERE -->
+  <section class="py-5" style="background-color: var(--bg-secondary);" id="principal">
+    <div class="container-xl py-lg-4">
+      <div class="principal-card p-4 p-md-5 reveal">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-md-5 col-lg-4 text-center">
+            <div class="position-relative d-inline-block">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Dr. Radhika Sharma, Principal" class="principal-img rounded-4 shadow-sm" />
+              <div class="position-absolute bottom-0 start-50 translate-middle-x bg-dark text-white px-3 py-1 rounded-pill small fw-bold text-nowrap mb-n2 border border-warning">
+                <i class="bi bi-award-fill text-warning me-1"></i> National Best Educator 2024
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-8">
+            <div class="principal-quote-icon mb-2">
+              <i class="bi bi-quote"></i>
+            </div>
+            <span class="section-badge section-badge-gold mb-2">Leadership Perspective</span>
+            <h2 class="font-heading mb-3">Nurturing Purposeful Minds</h2>
+            <p class="text-muted fst-italic mb-3">
+              "Education is not merely about syllabus completion; it is the sacred craft of kindling curiosity, strengthening emotional resilience, and inspiring young boys and girls to contribute meaningfully to society."
+            </p>
+            <p class="text-muted mb-4">
+              At St. Andrews, we emphasize experiential learning where theory meets practice. Whether in our state-of-the-art robotics labs or on the athletic field, every child is recognized as an individual with boundless potential. We welcome you to be part of this extraordinary journey of discovery.
+            </p>
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 pt-2 border-top">
+              <div>
+                <h5 class="fw-bold mb-0 text-navy">Dr. Radhika Sharma</h5>
+                <span class="principal-designation">Ph.D. (Education), M.Sc. | Principal & Head of School</span>
+              </div>
+              <button class="btn btn-outline-navy btn-sm" data-bs-toggle="modal" data-bs-target="#principalMessageModal">
+                Read Full Message <i class="bi bi-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       16. ACADEMICS SECTION (4 Responsive Cards)
+       ======================================================================== -->
+  <!-- EDIT ACADEMICS HERE -->
+  <section class="py-5 bg-white" id="academics">
+    <div class="container-xl py-lg-4">
+      <div class="text-center mb-5 reveal">
+        <span class="section-badge"><i class="bi bi-book-half"></i> Comprehensive Learning Pathways</span>
+        <h2 class="font-heading section-title">Learning Designed for Every Stage</h2>
+        <p class="section-subtitle">Our pedagogical framework seamlessly guides students from early childhood wonder to senior secondary academic mastery.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Stage 1: Pre-Primary -->
+        <div class="col-12 col-sm-6 col-lg-3 reveal">
+          <div class="academic-card">
+            <div class="academic-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=600&q=80" alt="Pre-Primary Early Learning" class="academic-card-img" />
+              <span class="academic-card-badge">Ages 3 – 5 Yrs</span>
+            </div>
+            <div class="academic-card-body">
+              <div class="academic-icon-circle">
+                <i class="bi bi-puzzle-fill"></i>
+              </div>
+              <h3 class="h5 fw-bold text-navy mb-2">Pre-Primary (Early Years)</h3>
+              <p class="small text-muted mb-3 flex-grow-1">Montessori-inspired play-based learning emphasizing sensory development, phonics, numeracy, and social collaboration.</p>
+              <ul class="list-unstyled small text-muted mb-3">
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Theme-based Curiosity Corners</li>
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Motor Skill Development</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">Explore Stage <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stage 2: Primary School -->
+        <div class="col-12 col-sm-6 col-lg-3 reveal reveal-delay-1">
+          <div class="academic-card">
+            <div class="academic-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80" alt="Primary School Class" class="academic-card-img" />
+              <span class="academic-card-badge">Grades 1 – 5</span>
+            </div>
+            <div class="academic-card-body">
+              <div class="academic-icon-circle">
+                <i class="bi bi-pencil-square"></i>
+              </div>
+              <h3 class="h5 fw-bold text-navy mb-2">Primary School</h3>
+              <p class="small text-muted mb-3 flex-grow-1">Building fundamental conceptual clarity in languages, mathematics, environmental studies, performing arts, and coding.</p>
+              <ul class="list-unstyled small text-muted mb-3">
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Activity-oriented Pedagogy</li>
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Linguistic & Math Labs</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">Explore Stage <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stage 3: Middle School -->
+        <div class="col-12 col-sm-6 col-lg-3 reveal reveal-delay-2">
+          <div class="academic-card">
+            <div class="academic-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&q=80" alt="Middle School Science" class="academic-card-img" />
+              <span class="academic-card-badge">Grades 6 – 8</span>
+            </div>
+            <div class="academic-card-body">
+              <div class="academic-icon-circle">
+                <i class="bi bi-diagram-3-fill"></i>
+              </div>
+              <h3 class="h5 fw-bold text-navy mb-2">Middle School</h3>
+              <p class="small text-muted mb-3 flex-grow-1">Transitioning to disciplined inquiry across Physics, Chemistry, Biology, Advanced Math, Social Sciences, and foreign languages.</p>
+              <ul class="list-unstyled small text-muted mb-3">
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Inter-disciplinary Projects</li>
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Robotics & Design Thinking</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">Explore Stage <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stage 4: High School -->
+        <div class="col-12 col-sm-6 col-lg-3 reveal reveal-delay-3">
+          <div class="academic-card">
+            <div class="academic-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80" alt="Senior Secondary High School" class="academic-card-img" />
+              <span class="academic-card-badge">Grades 9 – 12</span>
+            </div>
+            <div class="academic-card-body">
+              <div class="academic-icon-circle">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <h3 class="h5 fw-bold text-navy mb-2">Senior Secondary</h3>
+              <p class="small text-muted mb-3 flex-grow-1">Specialized streams in Science, Commerce & Humanities with integrated career mentorship for competitive examinations.</p>
+              <ul class="list-unstyled small text-muted mb-3">
+                <li><i class="bi bi-check2-circle text-success me-2"></i>NEET, JEE, CLAT Mentorship</li>
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Global University Counseling</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">Explore Stage <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       17. WHY CHOOSE US (6 Feature Cards)
+       ======================================================================== -->
+  <section class="py-5" style="background-color: var(--bg-secondary);" id="whyUs">
+    <div class="container-xl py-lg-4">
+      <div class="text-center mb-5 reveal">
+        <span class="section-badge"><i class="bi bi-shield-check"></i> Institutional Pillars</span>
+        <h2 class="font-heading section-title">Why St. Andrews Stands Apart</h2>
+        <p class="section-subtitle">Dedicated to creating an atmosphere where academic rigor meets values, character building, and world-class infrastructure.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Feature 1 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="bi bi-award"></i>
+            </div>
+            <h3 class="h5 fw-bold text-navy mb-2">Academic Excellence</h3>
+            <p class="text-muted mb-0">Consistently ranking in the Top 1% CBSE schools nationwide with stellar board exam results, subject centums, and Olympiad medals.</p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal reveal-delay-1">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="bi bi-person-video3"></i>
+            </div>
+            <h3 class="h5 fw-bold text-navy mb-2">Experienced Faculty</h3>
+            <p class="text-muted mb-0">Highly qualified, caring educators with an average of 12+ years of teaching tenure undergoing continuous international professional training.</p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="bi bi-shield-lock"></i>
+            </div>
+            <h3 class="h5 fw-bold text-navy mb-2">Safe & Secure Campus</h3>
+            <p class="text-muted mb-0">Gated 25-acre boundary with 300+ HD CCTV cameras, RFID attendance, GPS tracked bus fleet, and round-the-clock trained security personnel.</p>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="bi bi-cpu"></i>
+            </div>
+            <h3 class="h5 fw-bold text-navy mb-2">Modern Infrastructure</h3>
+            <p class="text-muted mb-0">Air-conditioned smart classrooms equipped with 4K touch displays, 3D STEM labs, AI innovation studio, and digital auditoriums.</p>
+          </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal reveal-delay-1">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="bi bi-dribbble"></i>
+            </div>
+            <h3 class="h5 fw-bold text-navy mb-2">Sports & Co-Curriculars</h3>
+            <p class="text-muted mb-0">Comprehensive sports coaching in football, basketball, tennis, cricket, swimming, martial arts, classical music, debate, and robotics.</p>
+          </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <h3 class="h5 fw-bold text-navy mb-2">Holistic Development</h3>
+            <p class="text-muted mb-0">Focus on emotional quotient (EQ), ethical mindfulness, public speaking, community outreach, and global leadership exchange programs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       18. CAMPUS & FACILITIES SHOWCASE
+       ======================================================================== -->
+  <!-- EDIT FACILITIES HERE -->
+  <section class="py-5 bg-white" id="facilities">
+    <div class="container-xl py-lg-4">
+      <div class="text-center mb-5 reveal">
+        <span class="section-badge"><i class="bi bi-buildings"></i> World-Class Infrastructure</span>
+        <h2 class="font-heading section-title">Explore Our 25-Acre Campus</h2>
+        <p class="section-subtitle">Designed to stimulate curiosity, foster creativity, and promote physical and emotional wellbeing in a serene environment.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Facility 1: Smart Classrooms -->
+        <div class="col-12 col-md-6 col-lg-3 reveal">
+          <div class="facility-card">
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=80" alt="Interactive Smart Classrooms" class="facility-img" />
+            <div class="facility-overlay">
+              <span class="badge bg-secondary mb-1 align-self-start">Academics</span>
+              <h3 class="facility-title">Smart Classrooms</h3>
+              <p class="facility-desc">Ergonomic seating with 75" 4K interactive digital smartboards and acoustic engineering.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facility 2: Science Laboratories -->
+        <div class="col-12 col-md-6 col-lg-3 reveal reveal-delay-1">
+          <div class="facility-card">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80" alt="Advanced Science Labs" class="facility-img" />
+            <div class="facility-overlay">
+              <span class="badge bg-secondary mb-1 align-self-start">Science & Tech</span>
+              <h3 class="facility-title">Science Laboratories</h3>
+              <p class="facility-desc">Fully equipped state-of-the-art Physics, Chemistry, and Biotechnology research labs.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facility 3: Digital Library -->
+        <div class="col-12 col-md-6 col-lg-3 reveal reveal-delay-2">
+          <div class="facility-card">
+            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=80" alt="Modern Knowledge Library" class="facility-img" />
+            <div class="facility-overlay">
+              <span class="badge bg-secondary mb-1 align-self-start">Resource Center</span>
+              <h3 class="facility-title">Knowledge Library</h3>
+              <p class="facility-desc">Over 35,000 physical volumes, international journals, Kindle reading pods, and research booths.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facility 4: Computer & AI Lab -->
+        <div class="col-12 col-md-6 col-lg-3 reveal reveal-delay-3">
+          <div class="facility-card">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" alt="Robotics and Computer Lab" class="facility-img" />
+            <div class="facility-overlay">
+              <span class="badge bg-secondary mb-1 align-self-start">Innovation</span>
+              <h3 class="facility-title">Robotics & AI Lab</h3>
+              <p class="facility-desc">High-speed computing workstations, LEGO robotics kits, and 3D printing equipment.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facility 5: Sports Complex -->
+        <div class="col-12 col-md-6 col-lg-3 reveal">
+          <div class="facility-card">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80" alt="Sports Complex & Gymnasium" class="facility-img" />
+            <div class="facility-overlay">
+              <span class="badge bg-secondary mb-1 align-self-start">Athletics</span>
+              <h3 class="facility-title">Sports Arena</h3>
+              <p class="facility-desc">FIFA-standard football turf, Olympic-size pool, indoor badminton, and basketball courts.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facility 6: Safe Transport -->
+        <div class="col-12 col-md-6 col-lg-3 reveal reveal-delay-1">
+          <div class="facility-card">
+            <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80" alt="GPS Tracked School Buses" class="facility-img" />
+            <div class="facility-overlay">
+              <span class="badge bg-secondary mb-1 align-self-start">Logistics</span>
+              <h3 class="facility-title">Transportation Fleet</h3>
+              <p class="facility-desc">GPS-enabled air-conditioned bus network covering all major city sectors with live tracking app.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facility 7: Cafeteria -->
+        <div class="col-12 col-md-6 col-lg-3 reveal reveal-delay-2">
+          <div class="facility-card">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Hygienic Dining Hall" class="facility-img" />
+            <div class="facility-overlay">
+              <span class="badge bg-secondary mb-1 align-self-start">Nutrition</span>
+              <h3 class="facility-title">Hygienic Dining</h3>
+              <p class="facility-desc">Nutritionist-designed wholesome hot vegetarian and balanced meals prepared under FSSAI standards.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facility 8: Medical Center -->
+        <div class="col-12 col-md-6 col-lg-3 reveal reveal-delay-3">
+          <div class="facility-card">
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" alt="Campus Health and Medical Infirmary" class="facility-img" />
+            <div class="facility-overlay">
+              <span class="badge bg-secondary mb-1 align-self-start">Healthcare</span>
+              <h3 class="facility-title">Health Infirmary</h3>
+              <p class="facility-desc">24/7 on-campus resident medical officer, trained nurses, and ambulance on standby.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       19. SCHOOL EVENTS (What's Happening at Our School)
+       ======================================================================== -->
+  <!-- EDIT SCHOOL EVENTS HERE -->
+  <section class="py-5" style="background-color: var(--bg-secondary);" id="events">
+    <div class="container-xl py-lg-4">
+      <div class="d-flex justify-content-between align-items-end flex-wrap gap-3 mb-5 reveal">
+        <div>
+          <span class="section-badge"><i class="bi bi-calendar-event"></i> School Happenings</span>
+          <h2 class="font-heading section-title mb-0">What's Happening at Our School</h2>
+        </div>
+        <a href="#timeline" class="btn btn-outline-navy">View Full Calendar <i class="bi bi-arrow-right"></i></a>
+      </div>
+
+      <div class="row g-4">
+        <!-- Event 1 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal">
+          <div class="event-card">
+            <div class="event-img-wrap">
+              <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&q=80" alt="Annual Sports Meet" class="event-img" />
+              <div class="event-date-badge">
+                <div class="event-date-day">18</div>
+                <div class="event-date-month">NOV</div>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="badge bg-warning text-dark align-self-start mb-2">Athletics</span>
+              <h3 class="h5 fw-bold text-navy mb-2">Annual Sports Carnival 'Udaan 2026'</h3>
+              <p class="small text-muted mb-3 flex-grow-1">Inter-house track events, relay championships, gymnastics displays, and martial arts demonstrations.</p>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal reveal-delay-1">
+          <div class="event-card">
+            <div class="event-img-wrap">
+              <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80" alt="STEM and Science Exhibition" class="event-img" />
+              <div class="event-date-badge">
+                <div class="event-date-day">05</div>
+                <div class="event-date-month">DEC</div>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="badge bg-info text-dark align-self-start mb-2">Innovation</span>
+              <h3 class="h5 fw-bold text-navy mb-2">National Science & Innovation Expo</h3>
+              <p class="small text-muted mb-3 flex-grow-1">Showcasing student-designed AI prototypes, eco-friendly energy models, and robotics projects.</p>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="event-card">
+            <div class="event-img-wrap">
+              <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80" alt="Annual Cultural Day Tarang" class="event-img" />
+              <div class="event-date-badge">
+                <div class="event-date-day">22</div>
+                <div class="event-date-month">DEC</div>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="badge bg-primary align-self-start mb-2">Culture</span>
+              <h3 class="h5 fw-bold text-navy mb-2">Annual Cultural Fest 'Tarang 2026'</h3>
+              <p class="small text-muted mb-3 flex-grow-1">A grand celebration of Indian classical and contemporary dance, theatrical dramas, and orchestra recitals.</p>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 4 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal">
+          <div class="event-card">
+            <div class="event-img-wrap">
+              <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=600&q=80" alt="Independence Day Celebration" class="event-img" />
+              <div class="event-date-badge">
+                <div class="event-date-day">15</div>
+                <div class="event-date-month">AUG</div>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="badge bg-success align-self-start mb-2">National</span>
+              <h3 class="h5 fw-bold text-navy mb-2">Independence Day Patriotic Gala</h3>
+              <p class="small text-muted mb-3 flex-grow-1">Flag hoisting ceremony, NCC parade, patriotic choir performances, and community service rally.</p>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 5 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal reveal-delay-1">
+          <div class="event-card">
+            <div class="event-img-wrap">
+              <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80" alt="Parent Teacher Interaction" class="event-img" />
+              <div class="event-date-badge">
+                <div class="event-date-day">10</div>
+                <div class="event-date-month">JAN</div>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="badge bg-secondary align-self-start mb-2">Academics</span>
+              <h3 class="h5 fw-bold text-navy mb-2">Term II Parent-Teacher Conference</h3>
+              <p class="small text-muted mb-3 flex-grow-1">One-on-one progress review between mentors and parents regarding academic growth and holistic metrics.</p>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 6 -->
+        <div class="col-12 col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="event-card">
+            <div class="event-img-wrap">
+              <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=600&q=80" alt="Inter-School Debate and MUN" class="event-img" />
+              <div class="event-date-badge">
+                <div class="event-date-day">28</div>
+                <div class="event-date-month">JAN</div>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="badge bg-danger align-self-start mb-2">Leadership</span>
+              <h3 class="h5 fw-bold text-navy mb-2">St. Andrews Model United Nations</h3>
+              <p class="small text-muted mb-3 flex-grow-1">Hosting 40+ leading regional schools for high-level parliamentary debate on global diplomacy and climate action.</p>
+              <a href="#contact" class="btn btn-outline-navy btn-sm mt-auto">View Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       20. NEWS & ANNOUNCEMENTS TABS
+       ======================================================================== -->
+  <!-- EDIT SCHOOL NEWS HERE -->
+  <section class="py-5 bg-white" id="news">
+    <div class="container-xl py-lg-4">
+      <div class="text-center mb-5 reveal">
+        <span class="section-badge"><i class="bi bi-megaphone"></i> Official Notices</span>
+        <h2 class="font-heading section-title">Latest News & Circulars</h2>
+        <p class="section-subtitle">Stay informed with real-time academic announcements, circulars, and administration updates.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="news-tabs d-flex justify-content-center mb-4 reveal">
+        <ul class="nav nav-pills" id="newsTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="all-news-tab" data-bs-toggle="pill" data-bs-target="#tab-all-news" type="button" role="tab">All Notices</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="circulars-tab" data-bs-toggle="pill" data-bs-target="#tab-circulars" type="button" role="tab">Circulars</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="admissions-news-tab" data-bs-toggle="pill" data-bs-target="#tab-admissions" type="button" role="tab">Admissions</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="academic-news-tab" data-bs-toggle="pill" data-bs-target="#tab-academic" type="button" role="tab">Academic Updates</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tab Content -->
+      <div class="tab-content reveal" id="newsTabContent">
+        <!-- ALL TAB -->
+        <div class="tab-pane fade show active" id="tab-all-news" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="news-card">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge bg-warning text-dark news-badge">Admissions</span>
+                  <small class="text-muted"><i class="bi bi-clock me-1"></i> Oct 24, 2026</small>
+                </div>
+                <h3 class="h6 fw-bold text-navy mb-2">Online Application Portal Open for Session 2026–27</h3>
+                <p class="small text-muted mb-3">Registrations are now live for Pre-Primary to Grade XI. Early bird fee structure applicable till Dec 15.</p>
+                <a href="#admissions" class="small fw-bold text-secondary text-decoration-none">Read Circular <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="news-card">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge bg-primary news-badge">Curriculum</span>
+                  <small class="text-muted"><i class="bi bi-clock me-1"></i> Oct 18, 2026</small>
+                </div>
+                <h3 class="h6 fw-bold text-navy mb-2">Term I Assessment Timetable & Revision Modules</h3>
+                <p class="small text-muted mb-3">Detailed date-sheets and sample practice papers uploaded on Parent Portal for Grades 6 through 12.</p>
+                <a href="#parentLoginModal" data-bs-toggle="modal" class="small fw-bold text-secondary text-decoration-none">Download Timetable <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="news-card">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge bg-success news-badge">Achievements</span>
+                  <small class="text-muted"><i class="bi bi-clock me-1"></i> Oct 12, 2026</small>
+                </div>
+                <h3 class="h6 fw-bold text-navy mb-2">St. Andrews Crowned Champions at National Robotics Cup</h3>
+                <p class="small text-muted mb-3">Our Senior STEM Team clinched 1st Place out of 180 teams at the IIT Delhi Innovation Challenge.</p>
+                <a href="#achievementsSection" class="small fw-bold text-secondary text-decoration-none">View Story <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CIRCULARS TAB -->
+        <div class="tab-pane fade" id="tab-circulars" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="news-card">
+                <span class="badge bg-danger news-badge mb-2">Notice #CBSE-2026/89</span>
+                <h3 class="h6 fw-bold text-navy mb-2">Winter Uniform Guidelines Effective from November 1st</h3>
+                <p class="small text-muted mb-2">All students are advised to adhere to the standard blazer and woollen tie dress code.</p>
+                <span class="text-muted small"><i class="bi bi-file-earmark-pdf text-danger me-1"></i> Circular_Winter_Uniform.pdf (180 KB)</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="news-card">
+                <span class="badge bg-danger news-badge mb-2">Notice #ADMIN-2026/42</span>
+                <h3 class="h6 fw-bold text-navy mb-2">Bus Route Optimization for Northern Knowledge Corridor</h3>
+                <p class="small text-muted mb-2">Updated pickup and drop timings available in the live tracking parent mobile application.</p>
+                <span class="text-muted small"><i class="bi bi-file-earmark-pdf text-danger me-1"></i> Route_Update_North.pdf (220 KB)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ADMISSIONS TAB -->
+        <div class="tab-pane fade" id="tab-admissions" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-md-12">
+              <div class="news-card">
+                <span class="badge bg-warning text-dark news-badge mb-2">Admissions Cell Notice</span>
+                <h3 class="h6 fw-bold text-navy mb-2">Scholarship Assessment Dates for Grade XI Science & Commerce Aspirants</h3>
+                <p class="small text-muted mb-3">Merit-cum-means scholarship examination offering up to 100% tuition waiver scheduled for November 28th. Registration is mandatory.</p>
+                <a href="#contact" class="btn btn-secondary-custom btn-sm">Register for Scholarship Exam</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACADEMIC UPDATES TAB -->
+        <div class="tab-pane fade" id="tab-academic" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="news-card">
+                <span class="badge bg-info text-dark news-badge mb-2">Academic Advisory</span>
+                <h3 class="h6 fw-bold text-navy mb-2">Introduction of Advanced AI & Machine Learning Elective</h3>
+                <p class="small text-muted mb-2">Collaborative hands-on course launched in partnership with Intel for Grades 9 and 11.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="news-card">
+                <span class="badge bg-info text-dark news-badge mb-2">Library Bulletin</span>
+                <h3 class="h6 fw-bold text-navy mb-2">Subscription to JSTOR & British Council Digital Reading Hub</h3>
+                <p class="small text-muted mb-2">Free credentials issued to high school students for peer-reviewed academic research.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       21. UPCOMING EVENTS TIMELINE (Horizontal Desktop / Vertical Mobile)
+       ======================================================================== -->
+  <!-- EDIT UPCOMING EVENTS HERE -->
+  <section class="timeline-section" id="timeline">
+    <div class="container-xl">
+      <div class="text-center mb-5 reveal">
+        <span class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-bold text-uppercase mb-2">Calendar Milestones</span>
+        <h2 class="font-heading text-white mb-2">Key Events & Celebrations 2026–27</h2>
+        <p class="text-white-50 max-w-xl mx-auto">Mark your calendars for key institutional ceremonies and cultural festivals.</p>
+      </div>
+
+      <div class="timeline-track-desktop reveal">
+        <!-- Node 1 -->
+        <div class="timeline-node">
+          <div class="timeline-node-circle">
+            <span class="timeline-node-month">AUG</span>
+            <span class="timeline-node-day">15</span>
+          </div>
+          <div>
+            <h3 class="timeline-node-title">Independence Day</h3>
+            <p class="timeline-node-desc">Patriotic Parade & Gala</p>
+          </div>
+        </div>
+
+        <!-- Node 2 -->
+        <div class="timeline-node">
+          <div class="timeline-node-circle">
+            <span class="timeline-node-month">SEP</span>
+            <span class="timeline-node-day">05</span>
+          </div>
+          <div>
+            <h3 class="timeline-node-title">Teachers' Day</h3>
+            <p class="timeline-node-desc">Student Tribute Assembly</p>
+          </div>
+        </div>
+
+        <!-- Node 3 -->
+        <div class="timeline-node">
+          <div class="timeline-node-circle">
+            <span class="timeline-node-month">OCT</span>
+            <span class="timeline-node-day">02</span>
+          </div>
+          <div>
+            <h3 class="timeline-node-title">Gandhi Jayanti</h3>
+            <p class="timeline-node-desc">Swachhata Drive & Service</p>
+          </div>
+        </div>
+
+        <!-- Node 4 -->
+        <div class="timeline-node">
+          <div class="timeline-node-circle">
+            <span class="timeline-node-month">NOV</span>
+            <span class="timeline-node-day">14</span>
+          </div>
+          <div>
+            <h3 class="timeline-node-title">Children's Carnival</h3>
+            <p class="timeline-node-desc">Games, Food & Funfair</p>
+          </div>
+        </div>
+
+        <!-- Node 5 -->
+        <div class="timeline-node">
+          <div class="timeline-node-circle">
+            <span class="timeline-node-month">DEC</span>
+            <span class="timeline-node-day">20</span>
+          </div>
+          <div>
+            <h3 class="timeline-node-title">Annual Day Fest</h3>
+            <p class="timeline-node-desc">Grand Cultural Showcase</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       22. SCHOOL GALLERY (Interactive Filter & Lightbox)
+       ======================================================================== -->
+  <!-- EDIT SCHOOL GALLERY HERE -->
+  <section class="py-5 bg-white" id="gallery">
+    <div class="container-xl py-lg-4">
+      <div class="text-center mb-4 reveal">
+        <span class="section-badge"><i class="bi bi-images"></i> Visual Showcase</span>
+        <h2 class="font-heading section-title">Life at St. Andrews Academy</h2>
+        <p class="section-subtitle">Moments of joy, intellectual discovery, athletic triumph, and lifelong friendships.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="d-flex justify-content-center flex-wrap mb-4 reveal">
+        <button class="gallery-filter-btn active" data-filter="all">ALL PHOTOS</button>
+        <button class="gallery-filter-btn" data-filter="campus">CAMPUS</button>
+        <button class="gallery-filter-btn" data-filter="classrooms">CLASSROOMS</button>
+        <button class="gallery-filter-btn" data-filter="sports">SPORTS</button>
+        <button class="gallery-filter-btn" data-filter="events">EVENTS</button>
+        <button class="gallery-filter-btn" data-filter="activities">ACTIVITIES</button>
+      </div>
+
+      <!-- Gallery Grid (12 Crisp Curated Images) -->
+      <div class="row g-3 g-md-4" id="galleryGrid">
+        <!-- 1. Campus -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="campus">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=600&q=80" alt="Main Administrative Block & Lush Lawns" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-warning text-dark mb-1">Campus</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Main Academic Quadrangle</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Classrooms -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="classrooms">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=80" alt="Smart Collaborative Classroom" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-secondary mb-1">Classrooms</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Interactive STEM Class</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Sports -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="sports">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&q=80" alt="Students in Football Practice" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-success mb-1">Sports</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Football Academy Drills</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Events -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="events">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80" alt="Annual Cultural Dance Recital" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-danger mb-1">Events</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Annual Cultural Gala</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Activities (Robotics) -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="activities">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80" alt="Robotics and Coding Club" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-info text-dark mb-1">Activities</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">AI & Robotics Lab</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Campus (Library) -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="campus">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=80" alt="Spacious Reading Library" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-warning text-dark mb-1">Campus</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Central Knowledge Hub</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Classrooms (Science Lab) -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="classrooms">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80" alt="Chemistry Hands-on Experiment" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-secondary mb-1">Classrooms</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Chemistry Research Lab</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Sports (Swimming) -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="sports">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=600&q=80" alt="Olympic Size Swimming Pool" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-success mb-1">Sports</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Aquatic Sports Center</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Activities (Music & Arts) -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="activities">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80" alt="School Orchestra and Music Studio" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-info text-dark mb-1">Activities</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Instrumental Orchestra</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Events (Graduation) -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="events">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80" alt="Graduation Convocation" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-danger mb-1">Events</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Senior Convocation Ceremony</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11. Campus (Green Environment) -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="campus">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=80" alt="Green Open Eco Campus" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-warning text-dark mb-1">Campus</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Botanical Learning Gardens</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12. Activities (Debate & MUN) -->
+        <div class="col-6 col-md-4 col-lg-3 gallery-item-wrap" data-category="activities">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80" alt="Parliamentary Debate Session" />
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat badge bg-info text-dark mb-1">Activities</span>
+              <h4 class="gallery-title h6 fw-bold mb-0">Model UN Diplomacy Forum</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       23. ACHIEVEMENTS & ANIMATED STATISTICS
+       ======================================================================== -->
+  <!-- EDIT ACHIEVEMENTS HERE -->
+  <section class="achievements-section" id="achievementsSection">
+    <div class="container-xl">
+      <div class="text-center mb-5 reveal">
+        <span class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-bold text-uppercase mb-2">Record of Excellence</span>
+        <h2 class="font-heading text-white mb-2">Our Legacy in Numbers</h2>
+        <p class="text-white-50 max-w-xl mx-auto">Milestones built through dedication of students, educators, and supportive parents over two decades.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Stat 1 -->
+        <div class="col-6 col-lg-3 reveal">
+          <div class="stat-counter-card">
+            <div class="stat-counter-icon"><i class="bi bi-calendar-check"></i></div>
+            <div class="stat-counter-value" data-target="25" data-suffix="+">25+</div>
+            <div class="stat-counter-label">Years of Legacy</div>
+          </div>
+        </div>
+
+        <!-- Stat 2 -->
+        <div class="col-6 col-lg-3 reveal reveal-delay-1">
+          <div class="stat-counter-card">
+            <div class="stat-counter-icon"><i class="bi bi-people"></i></div>
+            <div class="stat-counter-value" data-target="2500" data-suffix="+">2,500+</div>
+            <div class="stat-counter-label">Enrolled Students</div>
+          </div>
+        </div>
+
+        <!-- Stat 3 -->
+        <div class="col-6 col-lg-3 reveal reveal-delay-2">
+          <div class="stat-counter-card">
+            <div class="stat-counter-icon"><i class="bi bi-mortarboard"></i></div>
+            <div class="stat-counter-value" data-target="160" data-suffix="+">160+</div>
+            <div class="stat-counter-label">Faculty Mentors</div>
+          </div>
+        </div>
+
+        <!-- Stat 4 -->
+        <div class="col-6 col-lg-3 reveal reveal-delay-3">
+          <div class="stat-counter-card">
+            <div class="stat-counter-icon"><i class="bi bi-trophy"></i></div>
+            <div class="stat-counter-value" data-target="50" data-suffix="+">50+</div>
+            <div class="stat-counter-label">National Awards</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       24. TESTIMONIALS SLIDER
+       ======================================================================== -->
+  <!-- EDIT TESTIMONIALS HERE -->
+  <section class="py-5" style="background-color: var(--bg-secondary);" id="testimonials">
+    <div class="container-xl py-lg-4">
+      <div class="text-center mb-5 reveal">
+        <span class="section-badge"><i class="bi bi-chat-quote"></i> Community Voices</span>
+        <h2 class="font-heading section-title">What Our Parents & Alumni Say</h2>
+        <p class="section-subtitle">Read firsthand experiences of families whose children have flourished within our academy.</p>
+      </div>
+
+      <div id="testimonialCarousel" class="carousel slide reveal" data-bs-ride="carousel" data-bs-interval="6000">
+        <div class="carousel-inner">
+          <!-- Testimonial 1 -->
+          <div class="carousel-item active">
+            <div class="testimonial-card text-center">
+              <div class="testimonial-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="testimonial-quote">
+                "Enrolling our daughter at St. Andrews was the best decision we made for her future. The individual attention from teachers, world-class robotics facilities, and the strong ethical environment gave her the confidence to top the region in Grade X CBSE boards!"
+              </p>
+              <div class="d-flex align-items-center justify-content-center gap-3">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Pooja & Vikram Malhotra" class="testimonial-avatar" />
+                <div class="text-start">
+                  <h6 class="fw-bold mb-0 text-navy">Pooja & Vikram Malhotra</h6>
+                  <small class="text-muted">Parents of Ananya (Class XI Science)</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="carousel-item">
+            <div class="testimonial-card text-center">
+              <div class="testimonial-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="testimonial-quote">
+                "The sports infrastructure and debating culture at St. Andrews prepared me exceptionally well for my transition to university. Mentors didn't just teach textbooks; they taught us how to lead teams with integrity and grit."
+              </p>
+              <div class="d-flex align-items-center justify-content-center gap-3">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Arjun Sengupta" class="testimonial-avatar" />
+                <div class="text-start">
+                  <h6 class="fw-bold mb-0 text-navy">Arjun Sengupta</h6>
+                  <small class="text-muted">Alumnus (Batch of 2022) | Undergraduate Scholar at IIT Bombay</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="carousel-item">
+            <div class="testimonial-card text-center">
+              <div class="testimonial-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="testimonial-quote">
+                "As working parents, safety, transport discipline, and nutritious dining were our utmost priorities. St. Andrews provides an exceptional sanctuary where learning is celebrated, teachers are accessible, and children love coming to school every single morning."
+              </p>
+              <div class="d-flex align-items-center justify-content-center gap-3">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Dr. Sunita Rao" class="testimonial-avatar" />
+                <div class="text-start">
+                  <h6 class="fw-bold mb-0 text-navy">Dr. Sunita Rao</h6>
+                  <small class="text-muted">Parent of Rohan & Rhea (Class IV & VII)</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial Carousel Controls -->
+        <div class="text-center mt-4">
+          <button class="btn btn-outline-navy btn-sm me-2" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Previous Testimonial">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="btn btn-outline-navy btn-sm" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Next Testimonial">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       25 & 26. ADMISSIONS CTA & CAMPUS VISIT CALLOUT
+       ======================================================================== -->
+  <section class="py-5 bg-white" id="admissions">
+    <div class="container-xl py-lg-3">
+      <div class="cta-banner-card reveal">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8">
+            <span class="badge bg-warning text-dark fw-bold text-uppercase px-3 py-2 mb-3">Admissions Open 2026–27</span>
+            <h2 class="text-white font-heading mb-3">Give Your Child an Environment Where Curiosity Becomes Confidence</h2>
+            <p class="text-light mb-4">Admissions open for Pre-Primary to Grade XI. Experience personalized counseling, interactive campus walkthroughs, and seamless digital onboarding.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#contact" class="btn btn-accent-gold">Apply Online Now <i class="bi bi-arrow-right btn-arrow"></i></a>
+              <a href="#downloadProspectusModal" data-bs-toggle="modal" class="btn btn-outline-white">Download Prospectus (PDF)</a>
+              <a href="#contact" class="btn btn-secondary-custom">Schedule a Campus Visit</a>
+            </div>
+          </div>
+          <div class="col-lg-4 text-lg-end d-none d-lg-block">
+            <div class="bg-white text-navy p-4 rounded-4 shadow text-center">
+              <i class="bi bi-headset text-secondary fs-1 mb-2"></i>
+              <h5 class="fw-bold mb-1 text-navy">Admissions Helpline</h5>
+              <p class="text-muted small mb-3">Speak with our academic advisors Monday to Saturday (8:00 AM – 4:30 PM)</p>
+              <a href="tel:+919876543210" class="btn btn-primary-custom w-100"><i class="bi bi-telephone-fill me-2"></i> +91 98765 43210</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       27 & 28. CONTACT SECTION & ENQUIRY FORM (with Client-Side Validation)
+       ======================================================================== -->
+  <!-- EDIT CONTACT DETAILS HERE -->
+  <section class="py-5" style="background-color: var(--bg-secondary);" id="contact">
+    <div class="container-xl py-lg-4">
+      <div class="text-center mb-5 reveal">
+        <span class="section-badge"><i class="bi bi-envelope"></i> Get In Touch</span>
+        <h2 class="font-heading section-title">Connect with Our Admissions Team</h2>
+        <p class="section-subtitle">Have questions or want to schedule a personalized walkthrough? Fill the form below or reach our campus office directly.</p>
+      </div>
+
+      <div class="row g-4 g-lg-5">
+        <!-- Left Contact Info Card -->
+        <div class="col-lg-5 reveal">
+          <div class="contact-info-card">
+            <h3 class="h4 font-heading text-white mb-4">Campus Information</h3>
+
+            <!-- Address -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <h4 class="h6 fw-bold text-white mb-1">Campus Location</h4>
+                <p class="small text-light mb-0">St. Andrews International Academy, Sector 18 Knowledge Boulevard, Institutional Area, 10001</p>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <h4 class="h6 fw-bold text-white mb-1">Phone Enquiries</h4>
+                <p class="small text-light mb-0">+91 98765 43210 / +91 11 2345 6789</p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <h4 class="h6 fw-bold text-white mb-1">Email Addresses</h4>
+                <p class="small text-light mb-0">admissions@standrewsacademy.edu.in<br/>info@standrewsacademy.edu.in</p>
+              </div>
+            </div>
+
+            <!-- Office Hours -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-clock-fill"></i></div>
+              <div>
+                <h4 class="h6 fw-bold text-white mb-1">Office Hours</h4>
+                <p class="small text-light mb-0">Mon – Fri: 8:00 AM – 4:30 PM<br/>Saturday: 9:00 AM – 1:30 PM (Closed on Sundays)</p>
+              </div>
+            </div>
+
+            <!-- Quick Map Container -->
+            <!-- SCHOOL GOOGLE MAP EMBED GOES HERE -->
+            <div class="map-container mt-4">
+              <iframe
+                title="St. Andrews Academy Map Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112061.27709377484!2d77.10014389999999!3d28.6322885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b9237bed%3A0xf0f08e42df15!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Enquiry Form Card -->
+        <div class="col-lg-7 reveal reveal-delay-1">
+          <div class="contact-form-card">
+            <h3 class="h4 font-heading text-navy mb-2">Admission Enquiry Form 2026–27</h3>
+            <p class="text-muted small mb-4">Please submit your details. Our admissions team will reach back within 24 business hours.</p>
+
+            <form id="admissionEnquiryForm" novalidate>
+              <div class="row g-3">
+                <!-- Parent Name -->
+                <div class="col-md-6">
+                  <label for="parentName" class="form-label small fw-bold text-navy">Parent / Guardian Full Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="parentName" placeholder="e.g. Rajesh Malhotra" required />
+                  <div class="invalid-feedback">Please enter parent or guardian name.</div>
+                </div>
+
+                <!-- Student Name -->
+                <div class="col-md-6">
+                  <label for="studentName" class="form-label small fw-bold text-navy">Student Full Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="studentName" placeholder="e.g. Ananya Malhotra" required />
+                  <div class="invalid-feedback">Please enter prospective student name.</div>
+                </div>
+
+                <!-- Applying Grade -->
+                <div class="col-md-6">
+                  <label for="gradeSelect" class="form-label small fw-bold text-navy">Grade Applying For <span class="text-danger">*</span></label>
+                  <select class="form-select" id="gradeSelect" required>
+                    <option value="" selected disabled>Select Grade</option>
+                    <option value="Pre-Primary (Nursery/KG)">Pre-Primary (Nursery / KG)</option>
+                    <option value="Primary (Grades 1 to 5)">Primary (Grades 1 to 5)</option>
+                    <option value="Middle (Grades 6 to 8)">Middle School (Grades 6 to 8)</option>
+                    <option value="High (Grades 9 & 10)">High School (Grades 9 & 10)</option>
+                    <option value="Senior Sec - Science">Senior Secondary (Grade 11 - Science)</option>
+                    <option value="Senior Sec - Commerce">Senior Secondary (Grade 11 - Commerce)</option>
+                    <option value="Senior Sec - Humanities">Senior Secondary (Grade 11 - Humanities)</option>
+                  </select>
+                  <div class="invalid-feedback">Please select the applying grade.</div>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="col-md-6">
+                  <label for="phoneInput" class="form-label small fw-bold text-navy">Contact Phone Number <span class="text-danger">*</span></label>
+                  <input type="tel" class="form-control" id="phoneInput" placeholder="e.g. 9876543210" pattern="[0-9]{10}" required />
+                  <div class="invalid-feedback">Please provide a valid 10-digit mobile number.</div>
+                </div>
+
+                <!-- Email Address -->
+                <div class="col-12">
+                  <label for="emailInput" class="form-label small fw-bold text-navy">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="emailInput" placeholder="name@domain.com" required />
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+
+                <!-- Message / Queries -->
+                <div class="col-12">
+                  <label for="messageInput" class="form-label small fw-bold text-navy">Message / Specific Inquiries</label>
+                  <textarea class="form-control" id="messageInput" rows="4" placeholder="Mention any specific queries regarding transport, curriculum, scholarships or campus visit timings..."></textarea>
+                </div>
+
+                <!-- Terms Check -->
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="termsCheck" required />
+                    <label class="form-check-label small text-muted" for="termsCheck">
+                      I agree to receive official admission communications, brochures and call updates from St. Andrews Academy.
+                    </label>
+                    <div class="invalid-feedback">You must agree before submitting.</div>
+                  </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12 pt-2">
+                  <button type="submit" class="btn btn-primary-custom w-100 py-3" id="btnSubmitEnquiry">
+                    Submit Admission Enquiry <i class="bi bi-arrow-right ms-2 btn-arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       35 & 36. FOOTER & SOCIAL MEDIA
+       ======================================================================== -->
+  <footer class="main-footer" id="mainFooter">
+    <div class="container-xl">
+      <div class="row g-4 g-lg-5">
+        <!-- Column 1: Brand & Bio -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="school-crest-wrap" style="width: 42px; height: 42px;">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold text-white mb-0 font-heading">St. Andrews</h5>
+              <small class="text-warning fw-semibold text-uppercase letter-spacing-1">International Academy</small>
+            </div>
+          </div>
+          <p class="small text-light mb-4">
+            Empowering students through experiential learning, technological fluency, and deep-seated ethical values since 1998. Affiliated to CBSE & Cambridge.
+          </p>
+          <div class="d-flex align-items-center">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="col-6 col-md-6 col-lg-2">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#pageTop"><i class="bi bi-chevron-right small"></i> Home</a></li>
+            <li><a href="#about"><i class="bi bi-chevron-right small"></i> About Our School</a></li>
+            <li><a href="#academics"><i class="bi bi-chevron-right small"></i> Academic Stages</a></li>
+            <li><a href="#admissions"><i class="bi bi-chevron-right small"></i> Admissions 2026</a></li>
+            <li><a href="#gallery"><i class="bi bi-chevron-right small"></i> Photo Gallery</a></li>
+            <li><a href="#contact"><i class="bi bi-chevron-right small"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Important Links -->
+        <div class="col-6 col-md-6 col-lg-3">
+          <h4 class="footer-heading">Important Portals</h4>
+          <ul class="footer-links">
+            <li><a href="#parentLoginModal" data-bs-toggle="modal"><i class="bi bi-chevron-right small"></i> Parent ERP Portal</a></li>
+            <li><a href="#events"><i class="bi bi-chevron-right small"></i> Latest Circulars & News</a></li>
+            <li><a href="#facilities"><i class="bi bi-chevron-right small"></i> Campus Infrastructure</a></li>
+            <li><a href="#principal"><i class="bi bi-chevron-right small"></i> Principal's Message</a></li>
+            <li><a href="#downloadProspectusModal" data-bs-toggle="modal"><i class="bi bi-chevron-right small"></i> Download Prospectus</a></li>
+            <li><a href="#timeline"><i class="bi bi-chevron-right small"></i> School Calendar</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Newsletter & Contact -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4 class="footer-heading">Newsletter</h4>
+          <p class="small text-light mb-3">Subscribe to our monthly institutional digest and announcements.</p>
+          <form id="newsletterForm" class="mb-3">
+            <div class="input-group">
+              <input type="email" class="form-control form-control-sm" id="newsletterEmail" placeholder="Your email address" required />
+              <button class="btn btn-secondary-custom btn-sm" type="submit">Join</button>
+            </div>
+            <div id="newsletterFeedback" class="small text-success mt-2 d-none">
+              <i class="bi bi-check-circle-fill me-1"></i> Thank you for subscribing!
+            </div>
+          </form>
+          <p class="small text-light mb-0">
+            <i class="bi bi-telephone-fill text-warning me-2"></i> +91 98765 43210<br/>
+            <i class="bi bi-envelope-fill text-warning me-2"></i> admissions@standrews.edu.in
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <p class="mb-0 text-muted">© 2026 St. Andrews International Academy. All Rights Reserved.</p>
+        <div class="d-flex gap-3">
+          <a href="#privacyModal" data-bs-toggle="modal" class="text-muted small text-decoration-none">Privacy Policy</a>
+          <span class="text-muted">•</span>
+          <a href="#termsModal" data-bs-toggle="modal" class="text-muted small text-decoration-none">Terms of Service</a>
+          <span class="text-muted">•</span>
+          <a href="#cbseDisclosureModal" data-bs-toggle="modal" class="text-muted small text-decoration-none">Mandatory Public Disclosure</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       34. FLOATING CONTACT ACTIONS & BACK TO TOP
+       ======================================================================== -->
+  <div class="floating-actions-container" id="floatingActions">
+    <a href="https://wa.me/919876543210?text=Hello%20St.%20Andrews%20Academy,%20I%20would%20like%20to%20inquire%20about%20Admissions%202026-27" target="_blank" rel="noopener noreferrer" class="floating-btn floating-whatsapp" title="Chat on WhatsApp" aria-label="WhatsApp Chat">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+    <a href="tel:+919876543210" class="floating-btn floating-call" title="Call Admissions Office" aria-label="Call Admissions">
+      <i class="bi bi-telephone-fill"></i>
+    </a>
+    <button type="button" class="floating-btn floating-back-to-top" id="backToTop" title="Scroll to Top" aria-label="Back to Top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- ========================================================================
+       29. SEARCH MODAL UI
+       ======================================================================== -->
+  <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="modal-title fw-bold text-navy" id="searchModalLabel">Search St. Andrews Academy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="search-input-group mb-3">
+            <i class="bi bi-search search-input-icon"></i>
+            <input type="text" id="searchInput" class="form-control" placeholder="Search for programs, fee structure, labs, circulars, sports..." autocomplete="off" />
+          </div>
+          <div id="searchResults" class="mt-3">
+            <p class="text-muted text-center my-4">Type keywords like "Admissions", "STEM Lab", "Calendar", "Principal" or "Fees"...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       GALLERY LIGHTBOX MODAL
+       ======================================================================== -->
+  <div class="modal fade gallery-lightbox-modal" id="galleryLightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img src="" id="lightboxImg" class="lightbox-img img-fluid" alt="Gallery preview" />
+          <div class="mt-3 text-white d-flex justify-content-between align-items-center px-3">
+            <div>
+              <span class="badge bg-warning text-dark me-2" id="lightboxCategory">Campus</span>
+              <span class="fw-bold" id="lightboxTitle">Photo Title</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-sm btn-outline-light" id="lightboxPrev"><i class="bi bi-chevron-left"></i></button>
+              <span class="small text-white-50" id="lightboxIndex">1 / 12</span>
+              <button class="btn btn-sm btn-outline-light" id="lightboxNext"><i class="bi bi-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FORM SUBMISSION SUCCESS MODAL
+       ======================================================================== -->
+  <div class="modal fade" id="formSuccessModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 text-center p-4">
+        <div class="modal-body">
+          <div class="school-crest-wrap mx-auto mb-3" style="width: 64px; height: 64px; font-size: 1.8rem; background: var(--secondary-teal); color: #fff;">
+            <i class="bi bi-check2-circle"></i>
+          </div>
+          <h4 class="fw-bold text-navy mb-2">Enquiry Submitted Successfully!</h4>
+          <p class="text-muted mb-4">Thank you for your interest in St. Andrews Academy. Our admissions dean will reach out to you within 24 hours via phone and email.</p>
+          <button type="button" class="btn btn-primary-custom w-100" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       DOWNLOAD PROSPECTUS MODAL
+       ======================================================================== -->
+  <div class="modal fade" id="downloadProspectusModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 p-4">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="fw-bold text-navy mb-0">Download Official Prospectus 2026–27</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="small text-muted mb-3">Please enter your email to receive the 32-page comprehensive brochure, curriculum highlights, and fee schedule.</p>
+          <form onsubmit="event.preventDefault(); alert('Prospectus sent to your email address!'); bootstrap.Modal.getInstance(document.getElementById('downloadProspectusModal')).hide();">
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Parent Name</label>
+              <input type="text" class="form-control" required placeholder="Your full name" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Email Address</label>
+              <input type="email" class="form-control" required placeholder="name@domain.com" />
+            </div>
+            <button type="submit" class="btn btn-accent-gold w-100"><i class="bi bi-file-earmark-pdf me-2"></i> Download Prospectus (PDF)</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       PARENT LOGIN MODAL
+       ======================================================================== -->
+  <div class="modal fade" id="parentLoginModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 p-4">
+        <div class="modal-header border-0 pb-0">
+          <div class="d-flex align-items-center gap-2">
+            <i class="bi bi-person-lock fs-3 text-secondary"></i>
+            <h5 class="fw-bold text-navy mb-0">Parent ERP Portal</h5>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="small text-muted mb-3">Access student attendance, academic report cards, fee receipts, and direct teacher communications.</p>
+          <form onsubmit="event.preventDefault(); alert('Redirecting to ERP portal...');">
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Student Admission / Registration ID</label>
+              <input type="text" class="form-control" placeholder="e.g. SA-2026-8941" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Password</label>
+              <input type="password" class="form-control" placeholder="••••••••" required />
+            </div>
+            <button type="submit" class="btn btn-primary-custom w-100 mb-2">Sign In to Portal</button>
+            <div class="text-center">
+              <a href="#" class="small text-muted">Forgot password or need portal assistance?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       PRINCIPAL MESSAGE MODAL
+       ======================================================================== -->
+  <div class="modal fade" id="principalMessageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 p-4">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="fw-bold text-navy">Message from the Principal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" alt="Principal" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;" />
+            <div>
+              <h6 class="fw-bold mb-0 text-navy">Dr. Radhika Sharma</h6>
+              <small class="text-secondary">Principal & Head of School</small>
+            </div>
+          </div>
+          <p class="text-muted">Welcome to St. Andrews International Academy. Over the past 25 years, our mission has been singular: to create a nurturing haven where intellectual vigor meets character and kindness.</p>
+          <p class="text-muted">In an era shaped by artificial intelligence and rapid technological acceleration, we believe the human core of education—critical inquiry, empathy, resilience, and collaborative problem-solving—remains paramount. Our academic modules are curated to foster deep conceptual understanding rather than rote memorization.</p>
+          <p class="text-muted">We welcome parents, scholars, and visitors to walk our corridors, engage with our faculty, and experience the warmth of the St. Andrews family.</p>
+          <div class="text-end">
+            <button type="button" class="btn btn-primary-custom btn-sm" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       SCRIPTS: jQuery, Bootstrap 5 Bundle, Custom Main.js
+       ======================================================================== -->
+  <!-- jQuery 3.7.1 CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 5.3.3 JS Bundle with Popper CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
